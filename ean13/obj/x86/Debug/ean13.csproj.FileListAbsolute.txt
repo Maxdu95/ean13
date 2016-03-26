@@ -1,0 +1,5 @@
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\ean13\bin\Debug\ean13.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\ean13\bin\Debug\ean13.pdb
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\ean13\obj\x86\Debug\ean13.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\ean13\obj\x86\Debug\ean13.pdb
+C:\Users\mneuder\Documents\Visual Studio 2010\Projects\ean13\ean13\obj\x86\Debug\ean13.csprojResolveAssemblyReference.cache

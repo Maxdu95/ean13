@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="608f67eb-5e15-4ff6-af5f-d73521f69f3f" name="mneuder@R108P02 2015-11-27 11:49:32" runUser="SIO\mneuder" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="20f70c15-00ae-4e38-8976-1c465e289f13">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mneuder_R108P02 2015-11-27 11_49_32">
+      <DeploymentItem filename="c:\users\mneuder\documents\visual studio 2010\Projects\ean13\ean13\bin\Debug\ean13.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-11-27T11:49:32.7910069+01:00" queuing="2015-11-27T11:49:32.8190069+01:00" start="2015-11-27T11:49:32.8240069+01:00" finish="2015-11-27T11:49:33.0822069+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ToStringTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="fc088f0c-0d88-c0a7-85e1-7f86ad18f642">
+      <Execution id="fd9b1777-a16b-43b5-9f7c-50abada31405" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="CleTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="c52f5332-71ff-335c-862c-1d556b4a6abc">
+      <Execution id="3881ed86-d878-4707-a850-0ae78585dd38" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CleTest" />
+    </UnitTest>
+    <UnitTest name="ProgramConstructorTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="598de4b9-3fb7-1965-9b56-7d56160f1bd7">
+      <Execution id="e51f8ff9-5a58-4a81-b839-4da1c9b24bf9" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.ProgramTest, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProgramConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="93b68811-6101-5c93-c75c-fc0e066d650c">
+      <DeploymentItems>
+        <DeploymentItem filename="ean13.dll" />
+      </DeploymentItems>
+      <Execution id="193e5c90-e140-425f-ae2a-b75adb9dfe45" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.ProgramTest, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="ResteTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8">
+      <Execution id="e41f9b19-fd84-484e-8aa1-572caf60ee21" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResteTest" />
+    </UnitTest>
+    <UnitTest name="PoidsPairsTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="655d2786-dbf8-9829-8f35-32f5e289b8c0">
+      <Execution id="5fb4ec7e-b692-460c-b322-52b897a9521a" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PoidsPairsTest" />
+    </UnitTest>
+    <UnitTest name="Ean13ConstructorTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="e9163f9d-c849-b6ad-20b7-06b88564ed77">
+      <Execution id="71d7b33e-d54c-484b-951c-36882d9776d3" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Ean13ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="PoidsImpairsTest" storage="c:\users\mneuder\documents\visual studio 2010\projects\ean13\testean13\bin\debug\testean13.dll" id="1be8da64-2507-4f20-c060-b9959fa8bed1">
+      <Execution id="717f509f-adb8-472c-a91c-ea1b9dd19239" />
+      <TestMethod codeBase="C:/Users/mneuder/Documents/Visual Studio 2010/Projects/ean13/TestEan13/bin/Debug/TestEan13.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEan13.Ean13Test, TestEan13, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PoidsImpairsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1be8da64-2507-4f20-c060-b9959fa8bed1" executionId="717f509f-adb8-472c-a91c-ea1b9dd19239" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="598de4b9-3fb7-1965-9b56-7d56160f1bd7" executionId="e51f8ff9-5a58-4a81-b839-4da1c9b24bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="655d2786-dbf8-9829-8f35-32f5e289b8c0" executionId="5fb4ec7e-b692-460c-b322-52b897a9521a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93b68811-6101-5c93-c75c-fc0e066d650c" executionId="193e5c90-e140-425f-ae2a-b75adb9dfe45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52f5332-71ff-335c-862c-1d556b4a6abc" executionId="3881ed86-d878-4707-a850-0ae78585dd38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8" executionId="e41f9b19-fd84-484e-8aa1-572caf60ee21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9163f9d-c849-b6ad-20b7-06b88564ed77" executionId="71d7b33e-d54c-484b-951c-36882d9776d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc088f0c-0d88-c0a7-85e1-7f86ad18f642" executionId="fd9b1777-a16b-43b5-9f7c-50abada31405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="717f509f-adb8-472c-a91c-ea1b9dd19239" testId="1be8da64-2507-4f20-c060-b9959fa8bed1" testName="PoidsImpairsTest" computerName="R108P02" duration="00:00:00.0126305" startTime="2015-11-27T11:49:32.8290069+01:00" endTime="2015-11-27T11:49:32.9810069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="717f509f-adb8-472c-a91c-ea1b9dd19239">
+    </UnitTestResult>
+    <UnitTestResult executionId="e51f8ff9-5a58-4a81-b839-4da1c9b24bf9" testId="598de4b9-3fb7-1965-9b56-7d56160f1bd7" testName="ProgramConstructorTest" computerName="R108P02" duration="00:00:00.0082931" startTime="2015-11-27T11:49:32.9860069+01:00" endTime="2015-11-27T11:49:32.9960069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e51f8ff9-5a58-4a81-b839-4da1c9b24bf9">
+      <Output>
+        <ErrorInfo>
+          <Message>Échec de Assert.Inconclusive. TODO: implémentez le code pour vérifier la cible</Message>
+          <StackTrace>   à TestEan13.ProgramTest.ProgramConstructorTest() dans C:\Users\mneuder\Documents\Visual Studio 2010\Projects\ean13\TestEan13\ProgramTest.cs:ligne 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fb4ec7e-b692-460c-b322-52b897a9521a" testId="655d2786-dbf8-9829-8f35-32f5e289b8c0" testName="PoidsPairsTest" computerName="R108P02" duration="00:00:00.0003157" startTime="2015-11-27T11:49:33.0010069+01:00" endTime="2015-11-27T11:49:33.0030069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fb4ec7e-b692-460c-b322-52b897a9521a">
+    </UnitTestResult>
+    <UnitTestResult executionId="193e5c90-e140-425f-ae2a-b75adb9dfe45" testId="93b68811-6101-5c93-c75c-fc0e066d650c" testName="MainTest" computerName="R108P02" duration="00:00:00.0031965" startTime="2015-11-27T11:49:33.0070069+01:00" endTime="2015-11-27T11:49:33.0120069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="193e5c90-e140-425f-ae2a-b75adb9dfe45">
+      <Output>
+        <ErrorInfo>
+          <Message>Échec de Assert.Inconclusive. Une méthode qui ne retourne pas une valeur ne peut pas être vérifiée.</Message>
+          <StackTrace>   à TestEan13.ProgramTest.MainTest() dans C:\Users\mneuder\Documents\Visual Studio 2010\Projects\ean13\TestEan13\ProgramTest.cs:ligne 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3881ed86-d878-4707-a850-0ae78585dd38" testId="c52f5332-71ff-335c-862c-1d556b4a6abc" testName="CleTest" computerName="R108P02" duration="00:00:00.0003459" startTime="2015-11-27T11:49:33.0160069+01:00" endTime="2015-11-27T11:49:33.0180069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3881ed86-d878-4707-a850-0ae78585dd38">
+    </UnitTestResult>
+    <UnitTestResult executionId="e41f9b19-fd84-484e-8aa1-572caf60ee21" testId="da35aeb7-e1df-eeed-6b2d-3a17dd8140d8" testName="ResteTest" computerName="R108P02" duration="00:00:00.0002159" startTime="2015-11-27T11:49:33.0220069+01:00" endTime="2015-11-27T11:49:33.0240069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e41f9b19-fd84-484e-8aa1-572caf60ee21">
+    </UnitTestResult>
+    <UnitTestResult executionId="71d7b33e-d54c-484b-951c-36882d9776d3" testId="e9163f9d-c849-b6ad-20b7-06b88564ed77" testName="Ean13ConstructorTest" computerName="R108P02" duration="00:00:00.0083401" startTime="2015-11-27T11:49:33.0280069+01:00" endTime="2015-11-27T11:49:33.0380069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d7b33e-d54c-484b-951c-36882d9776d3">
+      <Output>
+        <ErrorInfo>
+          <Message>Échec de Assert.Fail. Aucune exception n'a été soulevée</Message>
+          <StackTrace>   à TestEan13.Ean13Test.Ean13ConstructorTest() dans C:\Users\mneuder\Documents\Visual Studio 2010\Projects\ean13\TestEan13\Ean13Test.cs:ligne 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd9b1777-a16b-43b5-9f7c-50abada31405" testId="fc088f0c-0d88-c0a7-85e1-7f86ad18f642" testName="ToStringTest" computerName="R108P02" duration="00:00:00.0004880" startTime="2015-11-27T11:49:33.0420069+01:00" endTime="2015-11-27T11:49:33.0440069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd9b1777-a16b-43b5-9f7c-50abada31405">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,9 @@
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\TestEan13.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\TestEan13.pdb
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\ean13.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\ean13.pdb
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\ean13_Accessor.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\bin\Debug\ean13_Accessor.pdb
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\obj\Debug\TestEan13.csprojResolveAssemblyReference.cache
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\obj\Debug\TestEan13.dll
+c:\users\mneuder\documents\visual studio 2010\Projects\ean13\TestEan13\obj\Debug\TestEan13.pdb
